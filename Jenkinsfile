@@ -4,7 +4,7 @@ node
 
     stage("contdonwload")
     {
-        git branch: '------', url: 'https://github.com/expertisedevops/DevOpsMultibranch.git'
+        git branch: 'gauri', url: 'https://github.com/expertisedevops/DevOpsMultibranch.git'
     }
     stage("contbuild")
     {
